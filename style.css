@@ -1,0 +1,36 @@
+body {
+  background-image: url(futuristic.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+}
+.game-name {
+  text-align: center;
+  position: relative;
+  font-style: aerial;
+}
+p.inner-text {
+  text-align: center;
+  opacity: 100%;
+  -webkit-transition: width 2s, height 4s;
+  transition: width 2s, height 4s;
+}
+.main-text-screen {
+  border-style: dashed;
+  margin-left: 400px;
+  margin-right: 10%;
+  left: 100px;
+  height: 600px;
+  width: 600px;
+  position: relative;
+  text-align: center;
+  float: center;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  /* background-image: url(1.png); */
+  background: rgb(156,202,191, 0.5);
+  background-image: opacity: 0.3px;
+  /* opacity: 0.3; */
+  border-radius: 10px 10px 10px 10px
+}
+.inner-text {
+  opacity: 100%
+}

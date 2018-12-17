@@ -1,0 +1,32 @@
+
+var ftGUID_3437300="3984C2F296F55D";
+var ftConfID_3437300="0";
+var ftParams_3437300="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=http%3A%2F%2Ftypemoon.wikia.com%2Fwiki%2FBazett_Fraga_McRemitz&cachebuster=229137.9162218672";
+var ftKeyword_3437300="";
+var ftCustom_3437300="";
+var ftSection_3437300="";
+var ftSegment_3437300="";
+var ftSegmentList_3437300=[];
+var ftRuleMatch_3437300="0";
+var ftTimestamp_3437300="1544996327";
+var ftGeoC2_3437300="uk";
+var ftGeoState_3437300="hav";
+var ftGeoCity_3437300="havering";
+var ftISP_3437300="virgin media limited";
+var ftSpeed_3437300="cable";
+var ftDMA_3437300="826044";
+var ftLong_3437300="0.178261";
+var ftLat_3437300="51.5776";
+var ftPostal_3437300="rm1 1aa";
+var ftTimeZone_3437300="0";
+var ftMobileCarrier_3437300="";
+var ftImp3437300 = {};
+ftImp3437300.privacy = "x";
+ftImp3437300.guidAge = "18";
+ftImp3437300.impID = "7E961D9F-142E-ECB6-70E3-F263CFA98C7C";
+
+ftImp3437300.ft_tpplid = "";
+ftImp3437300.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/343/3437300/2461752/js/j-3437300-2461752.js" id="ftscript_m3437300" name="ftscript_m3437300"></scr'+'ipt>');
+                    
