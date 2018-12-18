@@ -16,7 +16,7 @@ console.log(option2);
 //these define the variable
 var caseSynopsis = document.getElementById('caseSynopsis').getElementsByClassName('col-m-12')[0].getElementsByTagName('p');
 var caseTitle = document.getElementById('caseSynopsis').getElementsByClassName('col-m-12')[0].getElementsByTagName('h2');
-console.log(caseTitle);
+
 
 console.log(caseSynopsis[1]);
 // option1.addEventListener("click", )
