@@ -1,12 +1,12 @@
 body {
-  background-image: url(futuristic.png);
+  background-image: url("futuristic.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
 }
 .game-name {
   text-align: center;
   position: relative;
-  font-style: aerial;
+  font-style: arial;
 }
 p.inner-text {
   text-align: center;
@@ -15,13 +15,13 @@ p.inner-text {
   transition: width 2s, height 4s;
 }
 .main-text-screen {
-  border-style: dashed;
   margin-left: 400px;
   margin-right: 10%;
   left: 100px;
   height: 600px;
   width: 600px;
-  position: relative;
+  position: absolute;
+  z-index: 2;
   text-align: center;
   float: center;
   -webkit-box-shadow: inset 0 0 10px #000000;
@@ -32,5 +32,25 @@ p.inner-text {
   border-radius: 10px 10px 10px 10px
 }
 .inner-text {
-  opacity: 100%
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+z-index: 4;
+font-size: 18px;
 }
+.sprite-placement {
+  position: relative;
+  z-index: 3;
+  height: 400px;
+  width: 200px;
+  background-image: url("Kiyoko generic.png");
+  border: dashed;
+  float: right;
+  top: 200px;
+  right: 271px;
+}
+/* .outer-box {
+  border: dashed black 1px;
+  margin-bottom: 10px;
+  position: fixed;
+} */
