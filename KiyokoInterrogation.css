@@ -1,0 +1,11 @@
+body {
+  background-image: url("kitchen.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: center;
+  }
+  .image-sprite {
+    background-image: url("PoliceCommissioner.png");
+  }
+#option4 {
+  visibility: hidden;
+}
