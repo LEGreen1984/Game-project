@@ -1,0 +1,25 @@
+body {
+  background-image: url("GameOver.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: center;
+  }
+  a, a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .main-text-screen {
+      margin-left: 400px;
+      margin-right: 10%;
+      left: 55PX;
+      height: 600px;
+      width: 600px;
+      position: absolute;
+      z-index: 2;
+      text-align: center;
+      float: center;
+      -webkit-box-shadow: inset 0 0 10px #000000;
+      background: rgb(156,202,191, 0.9);
+      border-radius: 10px 10px 10px 10px;
+      color: black;
+  }
+  /*

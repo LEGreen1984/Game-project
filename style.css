@@ -1,5 +1,10 @@
+a, a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 body {
-  background-image: url("futuristic.png");
+  background-image: url("potentialbackground.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
 }
@@ -14,23 +19,7 @@ p.inner-text {
   -webkit-transition: width 2s, height 4s;
   transition: width 2s, height 4s;
 }
-.main-text-screen {
-  margin-left: 400px;
-  margin-right: 10%;
-  left: 100px;
-  height: 600px;
-  width: 600px;
-  position: absolute;
-  z-index: 2;
-  text-align: center;
-  float: center;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  /* background-image: url(1.png); */
-  background: rgb(156,202,191, 0.5);
-  background-image: opacity: 0.3px;
-  /* opacity: 0.3; */
-  border-radius: 10px 10px 10px 10px
-}
+
 .inner-text {
 padding-left: 20px;
 padding-right: 20px;
@@ -44,13 +33,53 @@ font-size: 18px;
   height: 400px;
   width: 200px;
   background-image: url("Kiyoko generic.png");
-  border: dashed;
   float: right;
   top: 200px;
   right: 271px;
 }
-/* .outer-box {
-  border: dashed black 1px;
-  margin-bottom: 10px;
-  position: fixed;
-} */
+
+@font-face {
+font-family: Blanka;
+src: url('BLANKAFont/Blanka-Regular.otf');
+}
+
+h1 {
+  font-family: Blanka;
+  font-size: 70px;
+  color: white;
+}
+@font-face {
+  font-family: conspiracy;
+  src: url('conspiracy/conspiracy\CONSB___.TTF')
+}
+body {
+  font-family: conspiracy;
+}
+
+.main-text-screen {
+    margin-left: 400px;
+    margin-right: 10%;
+    left: 55PX;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    float: center;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    background: rgb(156,202,191, 0.6);
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+}
+/*
+#option1, #option2, #option3, #option4 { */
+
+.btn-block {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+    color: #FFF0F5;
+    background-color: #74899A;
+    box-shadow: inset 0 0 10px #61707E;
+    border-color: #63717E
+}
