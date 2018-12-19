@@ -59,8 +59,6 @@ var dialogue = document.getElementById('dialogue')
 console.log(dialogue);
 
 function scenerioChecker(){
-  // for (var i = 0; i < question.length; i++) {
-  //   question[i]
   if (this.innerHTML == question[0]){
     option1.innerHTML = question[1]
     option2.innerHTML = question[2]
@@ -83,9 +81,6 @@ function scenerioChecker(){
     dialogue.innerHTML = answer[2]
     console.log("turn3");
   }
-  // else if (this.innerHTML == question[3]){
-  //
-  // }
   else if (this.innerHTML == question[4]){
     option1.innerHTML = question[2]
     option2.innerHTML = "hidden"
@@ -116,27 +111,7 @@ function scenerioChecker(){
     console.log("turn7");
   }
   else (console.log("no"))
-// }
 }
-
-
-    // debugger
-
-  // switch(i){
-  //     case 0 : option1.innerHTML = question[1]
-  //             dialogue.innerHTML = answer[0]
-  //             console.log(dialogue);
-  //             return this.innerHTML;
-  //     break;
-  //
-  //     case 1 : option1.innerHTML = question[0]
-  //             dialogue.innerHTML = "Let's go";
-  //               console.log(dialogue);
-  //               return this.innerHTML;
-  //       break;
-  //   }
-
-
 
 
 option1.addEventListener("click", scenerioChecker);
