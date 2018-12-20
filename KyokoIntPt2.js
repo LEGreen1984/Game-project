@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 var question = [
 "Tell me about your relationship with the victim",
-"<i>Really?</1>",
+"Really?",
 "Don't lie to me! I can see through deception",
 "Did you ever get life insurance on him?",
 "When did you make him get that out?",
@@ -57,18 +57,21 @@ function scenerioChecker(){
     option2.innerHTML = question[2]
     option3.innerHTML = question[3]
     dialogue.innerHTML = answer[0]
+    console.log('turn1');
   }
   else if (this.innerHTML == question[3]){
     dialogue.innerHTML = answer[2]
     option1.innerHTML = question[4]
     option2.innerHTML = question[5]
     option3.style.visibility = "hidden"
+    console.log('turn2');
   }
   else if (this.innerHTML == question[4]){
     dialogue.innerHTML = answer[4]
     option1.innerHTML = question[5]
     option2.innerHTML = question[6]
     option3.style.visibility = "hidden"
+    console.log('turn3');
   }
   else if (this.innerHTML == question[5]){
     dialogue.innerHTML = answer[3]
@@ -76,48 +79,64 @@ function scenerioChecker(){
     option2.style.visibility = "hidden"
     option3.style.visibility = "hidden"
     option4.style.visibility = "visible"
+    console.log('turn4');
   }
   else if (this.innerHTML == question[6]){
     option1.innerHTML = question[1]
     option2.innerHTML = question[2]
     option3.innerHTML = question[3]
     dialogue.innerHTML = answer[0]
+    console.log('turn5');
   }
   else if (this.innerHTML == question[7]){
     option1.innerHTML = question[1]
     option2.innerHTML = question[2]
     option3.innerHTML = question[3]
     dialogue.innerHTML = answer[0]
+    console.log('turn6');
   }
   else if (this.innerHTML == question[1]){
     option1.innerHTML = question[8]
     option2.innerHTML = question[3]
     option3.style.visibility = "hidden"
     dialogue.innerHTML = answer[1]
+    console.log('turn7');
   }
   else if (this.innerHTML == question[2]){
     option1.innerHTML = question[8]
     option2.innerHTML = question[3]
     option3.style.visibility = "hidden"
     dialogue.innerHTML = answer[1]
+    console.log('turn8');
   }
   else if (this.innerHTML == question[8]){
     option1.innerHTML = question[10]
     option2.style.visibility = "hidden"
     option3.style.visibility = "hidden"
     dialogue.innerHTML = memory[0]
+    console.log('turn9');
   }
   else if (this.innerHTML == question[9]){
     option4.style.visibility = "visible"
     option1.innerHTML = question[3]
     option2.style.visibility = "hidden"
     option3.style.visibility = "hidden"
+    dialogue.innerHTML = answer[5]
+    console.log('turn10');
   }
-  else if (this.innerHTML == question[10])
+  else if (this.innerHTML == question[10]){
   dialogue.innerHTML = memory[1]
-  option1.innerHTML = question[1]
+  option1.innerHTML = question[9]
   option2.style.visibility = "hidden"
   option3.style.visibility = "hidden"
+  console.log('turn11');
+  document.getElementsByTagName('body').style.backgroundImage = url('Kiyoko fight.jpg');
+}
+else if (this.innerHTML == question[9]){
+dialogue.innerHTML = answer[5]
+option4.style.visibility = "visible"
+option1.innerHTML = question[3]
+}
 }
 
 

@@ -13,9 +13,9 @@ body {
     float: right;
     left:400px
   }
-#option2, #option3, #option4 {
+/* #option2, #option3, #option4 {
   visibility: hidden;
-}
+} */
 .sprite-placement {
   position: fixed;
   z-index: 3;
