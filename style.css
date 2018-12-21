@@ -7,6 +7,7 @@ body {
   background-image: url("potentialbackground.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
+  font-family: ghostwriter;
 }
 .game-name {
   text-align: center;
@@ -43,6 +44,11 @@ font-family: Blanka;
 src: url('BLANKAFont/Blanka-Regular.otf');
 }
 
+@font-face {
+  font-family: ghostwriter
+  src: url('ghostwriter/GHOSTWRITER.TTF');
+}
+
 h1 {
   font-family: Blanka;
   font-size: 70px;
@@ -71,8 +77,7 @@ h2 {
     border-radius: 10px 10px 10px 10px;
     color: black;
 }
-/*
-#option1, #option2, #option3, #option4 { */
+
 
 .btn-block {
     float: none;

@@ -6,6 +6,7 @@ function hideButton() {
         console.log("hello")
       };
 
+
 function changedialogue (){
   caseTitle[0].innerHTML = "Kiyoko Fujiwara"
   caseSynopsis[0].innerHTML = "The first suspect is Kiyoko Fujiwara, the young wife of the victim. She was the one who made the cyanide-laced soup."
@@ -15,18 +16,17 @@ function changedialogue (){
   option1.style.visibility = "hidden"
 };
 var option1= document.getElementById('option1')
-console.log(option1);
 
 var option2= document.getElementById('option2')
-console.log(option2);
 
-//these define the variable
+option2.style.visibility = "hidden"
+
 var caseSynopsis = document.getElementById('caseSynopsis').getElementsByClassName('col-m-12')[0].getElementsByTagName('p');
 var caseTitle = document.getElementById('caseSynopsis').getElementsByClassName('col-m-12')[0].getElementsByTagName('h2');
 
 
 console.log(caseSynopsis[1]);
-// option1.addEventListener("click", )
+
 
 option1.addEventListener("click", changedialogue);
 

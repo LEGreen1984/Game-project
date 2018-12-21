@@ -41,22 +41,22 @@ var question = ["Where were you when your husband died?",
 
 
 var option1= document.getElementById('option1')
-console.log(option1);
+
 
 var option2= document.getElementById('option2')
-console.log(option2);
+
 
 var option3= document.getElementById('option3')
-console.log(option1);
+
 
 var option4= document.getElementById('option4')
-console.log(option2);
+
 
 var speaker = document.getElementById('speaker').innerHTML
-console.log(speaker);
+
 
 var dialogue = document.getElementById('dialogue')
-console.log(dialogue);
+
 
 function scenerioChecker(){
   if (this.innerHTML == question[0]){
@@ -64,53 +64,54 @@ function scenerioChecker(){
     option2.innerHTML = question[2]
     option3.style.visibility = "hidden"
     dialogue.innerHTML = answer[0]
-    option4.style.visibility = "hidden"
-    console.log("turn1");
+    option4.style.visibility = "hidden";
+
     }
   else if (this.innerHTML == question[1]){
     option1.innerHTML = question[4]
     dialogue.innerHTML = answer[1]
     option2.style.visibility = "hidden"
-    option3.style.visibility = "hidden"
-    console.log("turn2");
+    option3.style.visibility = "hidden";
+
   }
   else if (this.innerHTML == question[2]){
     option1.innerHTML = question[5]
     option2.innerHTML = question[7]
     option3.style.visibility = "hidden"
-    dialogue.innerHTML = answer[2]
-    console.log("turn3");
+    option1.style.visibility = "visible"
+    option2.style.visibility = "visible"
+    dialogue.innerHTML = answer[2];
+
   }
   else if (this.innerHTML == question[4]){
-    option1.innerHTML = question[2]
-    option2.innerHTML = "hidden"
-    option3.innerHTML = "hidden"
-    dialogue.innerHTML = answer[3]
-    console.log("turn4");
+    option3.innerHTML = question[2]
+    option2.style.visibility = "hidden"
+    option1.style.visibility = "hidden"
+    option3.style.visibility = "visible"
+    dialogue.innerHTML = answer[3];
+
   }
   else if (this.innerHTML == question[5]){
     option1.innerHTML = question[6]
     option2.innerHTML = question[7]
-    dialogue.innerHTML = answer[5]
-    console.log("turn5");
+    dialogue.innerHTML = answer[5];
+
   }
   else if (this.innerHTML == question[6]){
     dialogue.innerHTML = answer[6]
     option4.style.visibility = "visible"
     option1.style.visibility = "hidden"
     option2.style.visibility = "hidden"
-    option3.style.visibility = "hidden"
-    console.log("turn6");
+    option3.style.visibility = "hidden";
+
   }
   else if (this.innerHTML == question[7]){
     dialogue.innerHTML = answer[7]
     option1.innerHTML = question[6]
     option2.style.visibility = "hidden"
-    option3.style.visibility = "hidden"
-    console.log(this.innerHTML);
-    console.log("turn7");
+    option3.style.visibility = "hidden";
+
   }
-  else (console.log("no"))
 }
 
 

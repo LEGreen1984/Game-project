@@ -22,4 +22,10 @@ body {
       border-radius: 10px 10px 10px 10px;
       color: black;
   }
-  /*
+  .sprite-placement{
+    visibility: "hidden";
+  }
+  @font-face {
+    font-family: top-secret;
+    src: url('top-secret-stamp/Top Secret Stamp.ttf');
+  }

@@ -13,9 +13,7 @@ body {
     float: right;
     left:400px
   }
-/* #option2, #option3, #option4 {
-  visibility: hidden;
-} */
+
 .sprite-placement {
   position: fixed;
   z-index: 3;
@@ -37,4 +35,8 @@ body {
     background-color: #74899A;
     box-shadow: inset 0 0 10px #61707E;
     border-color: #63717E
+}
+@font-face {
+  font-family: top-secret;
+  src: url('top-secret-stamp/Top Secret Stamp.ttf');
 }
